@@ -1,0 +1,10 @@
+clearvars;close all;clc;
+[~, ~, raw] = xlsread('../ML_Figure6.xlsx');
+data = cell2mat(raw(2:end,2:end));
+X = data(:,2:end); 
+X(:,[3 4 5 6 7]) = [];
+Y = data(:,1); 
+Total=[X Y];
+Cof=corrcoef(Total);
+relust=abs(Cof(end,1:end-1));
+save('result.mat');

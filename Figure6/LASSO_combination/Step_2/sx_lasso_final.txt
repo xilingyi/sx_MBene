@@ -1,0 +1,641 @@
+Iteration: 100, Lambda: 0.218405
+Iteration: 99, Lambda: 0.203685
+|(F)^I*(|EM/n|)^r|
+3435
+Iteration: 98, Lambda: 0.189957
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+Iteration: 97, Lambda: 0.177155
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+Iteration: 96, Lambda: 0.165215
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+Iteration: 95, Lambda: 0.154080
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+Iteration: 94, Lambda: 0.143696
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+Iteration: 93, Lambda: 0.134011
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(|GD/n|)log*(|ZM/ED|)log|
+29309
+Iteration: 92, Lambda: 0.124979
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(a)^2*(|EM/n|)^I|
+5191
+|(|GD/n|)log*(|ZM/ED|)log|
+29309
+|(|AD/n|)^r*(|ZM/ED|)log|
+38769
+Iteration: 91, Lambda: 0.116556
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(a)^2*(|EM/n|)^I|
+5191
+|(|AD/n|)^r*(|ZM/ED|)log|
+38769
+Iteration: 90, Lambda: 0.108700
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(a)^2*(|EM/n|)^I|
+5191
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(|AD/n|)^r*(|ZM/ED|)log|
+38769
+Iteration: 89, Lambda: 0.101374
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(a)^2*(|EM/n|)^I|
+5191
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(|AD/n|)^r*(|ZM/ED|)log|
+38769
+Iteration: 88, Lambda: 0.094542
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(a)^2*(|EM/n|)^I|
+5191
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(n)^2*(|EM/n|)log|
+22677
+|(|AD/n|)^r*(|ZM/ED|)log|
+38769
+Iteration: 87, Lambda: 0.088170
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(a)^2*(|EM/n|)^I|
+5191
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(n)^2*(|EM/n|)log|
+22677
+|(|AD/n|)^r*(|ZM/ED|)log|
+38769
+Iteration: 86, Lambda: 0.082228
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(n)^2*(|EM/n|)log|
+22677
+|(|AD/n|)^r*(|ZM/ED|)log|
+38769
+Iteration: 85, Lambda: 0.076686
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(MD)^I*|AD/n||
+17535
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(n)^2*(|EM/n|)log|
+22677
+|(|AD/n|)^r*(|ZM/ED|)log|
+38769
+Iteration: 84, Lambda: 0.071518
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(MD)^I*|AD/n||
+17535
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(n)^2*(|EM/n|)log|
+22677
+|(|AD/n|)^r*(|ZM/ED|)log|
+38769
+Iteration: 83, Lambda: 0.066698
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(MD)^I*|AD/n||
+17535
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(n)^2*(|EM/n|)log|
+22677
+|(|AD/n|)^r*(|ZM/ED|)log|
+38769
+Iteration: 82, Lambda: 0.062202
+|F*(|EM/n|)^I|
+517
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(MD)^I*|AD/n||
+17535
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(n)^2*(|EM/n|)log|
+22677
+|(|AD/n|)^r*(|ZM/ED|)log|
+38769
+Iteration: 81, Lambda: 0.058010
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(MD)^I*|AD/n||
+17535
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(n)^2*(|EM/n|)log|
+22677
+||AD/ID|*(|ZM/ED|)log|
+34439
+|(|AD/n|)^r*(|ZM/ED|)log|
+38769
+Iteration: 80, Lambda: 0.054100
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(MD)^I*|AD/n||
+17535
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(n)^2*(|EM/n|)log|
+22677
+||AD/ID|*(|ZM/ED|)log|
+34439
+|(AD)^r*(|ZM/ED|)log|
+35497
+|(|AD/n|)^r*(|ZM/ED|)log|
+38769
+Iteration: 79, Lambda: 0.050454
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(D)^2*(AM)^I|
+4891
+|(|D/a|)^2*(|AM/ID|)^I|
+5762
+|(MD)^I*|AD/n||
+17535
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(n)^2*(|EM/n|)log|
+22677
+|AD*(|ZM/ED|)log|
+30442
+||AD/ID|*(|ZM/ED|)log|
+34439
+|(AD)^r*(|ZM/ED|)log|
+35497
+|(|AD/n|)^r*(|ZM/ED|)log|
+38769
+|(|EM/ED|)log*(|AD/ID|)log|
+44051
+Iteration: 78, Lambda: 0.047054
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(|D/a|)^2*(|AM/ID|)^I|
+5762
+|(MD)^I*|AD/n||
+17535
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(|MD/n|)^I*(|ZM/n|)^2|
+20818
+|(n)^2*(|EM/n|)log|
+22677
+|AD*(|ZM/ED|)log|
+30442
+||AD/ID|*(|ZM/ED|)log|
+34439
+|(AD)^r*(|ZM/ED|)log|
+35497
+|(|EM/ED|)log*(|AD/ID|)log|
+44051
+Iteration: 77, Lambda: 0.043883
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(|D/a|)^2*(|AM/ID|)^I|
+5762
+|(MD)^I*|AD/n||
+17535
+|(MD)^I*|ID/n||
+17536
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(|MD/n|)^I*(|ZM/n|)^2|
+20818
+|(n)^2*(|EM/n|)log|
+22677
+|AD*(|ZM/ED|)log|
+30442
+|(AD)^r*(|ZM/ED|)log|
+35497
+|(|EM/ED|)log*(|AD/ID|)log|
+44051
+Iteration: 76, Lambda: 0.040925
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(|D/a|)^2*(|AM/ID|)^I|
+5762
+|(|D/a|)^2*(|IM/ID|)log|
+5836
+|(MD)^I*|AD/n||
+17535
+|(MD)^I*|ID/n||
+17536
+|(MD)^I*(|AD/n|)^2|
+17640
+|(|MM/rM|)^I*(n)log|
+18336
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(|MD/n|)^I*(|ZM/n|)^2|
+20818
+|(n)^2*(|EM/n|)log|
+22677
+|(|MM/n|)^2*(|AM/n|)^2|
+23655
+|(|GD/rD|)log*(|ZM/ED|)log|
+29133
+|AD*(|ZM/ED|)log|
+30442
+|(AD)^r*(|ZM/ED|)log|
+35497
+|(|EM/ED|)log*(|AD/ID|)log|
+44051
+Iteration: 75, Lambda: 0.038167
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(|D/a|)^2*(|AM/ID|)^I|
+5762
+|(|D/a|)^2*(|IM/ID|)log|
+5836
+|(MD)^I*|AD/n||
+17535
+|(MD)^I*|ID/n||
+17536
+|(MD)^I*(|AD/n|)^2|
+17640
+|(|MM/rM|)^I*(n)log|
+18336
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(|MD/n|)^I*(|ZM/n|)^2|
+20818
+|(n)^2*(|EM/n|)log|
+22677
+|(|MM/n|)^2*(|AM/n|)^2|
+23655
+|(|GD/rD|)log*(|ZM/ED|)log|
+29133
+|AD*(|ZM/ED|)log|
+30442
+|(|EM/ED|)log*(|AD/ID|)log|
+44051
+Iteration: 74, Lambda: 0.035594
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(|D/a|)^2*(|AM/ID|)^I|
+5762
+|(|D/a|)^2*(|IM/ID|)log|
+5836
+|(MD)^I*|AD/n||
+17535
+|(MD)^I*|ID/n||
+17536
+|(MD)^I*(|AD/n|)^2|
+17640
+|(|MM/rM|)^I*(n)log|
+18336
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(|MD/n|)^I*(|ZM/n|)^2|
+20818
+|(n)^2*(|EM/n|)log|
+22677
+|(|MM/n|)^2*(|AM/n|)^2|
+23655
+|(|GD/rD|)log*(|ZM/ED|)log|
+29133
+|AD*(|ZM/ED|)log|
+30442
+|(|EM/ED|)log*(|AD/ID|)log|
+44051
+Iteration: 73, Lambda: 0.033196
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(D)^2*(|MM/GD|)^I|
+4764
+|(|F/a|)^2*(ZM)^2|
+5491
+|(|D/a|)^2*(|AM/ID|)^I|
+5762
+|(|D/a|)^2*(|IM/ID|)log|
+5836
+|(MD)^I*|AD/n||
+17535
+|(MD)^I*|ID/n||
+17536
+|(MD)^I*(|AD/n|)^2|
+17640
+|(|MM/rM|)^I*(n)log|
+18336
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(|MD/n|)^I*(|ZM/n|)^2|
+20818
+|(n)^2*(|EM/n|)log|
+22677
+|(|MM/n|)^2*(|AM/n|)^2|
+23655
+|(n)log*(AM)^2|
+26710
+|(|GD/rD|)log*(|ZM/ED|)log|
+29133
+|AD*(|ZM/ED|)log|
+30442
+|(|EM/ED|)log*(|AD/ID|)log|
+44051
+Iteration: 72, Lambda: 0.030958
+D
+2
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(D)^2*(|MM/GD|)^I|
+4764
+|(a)^2*(F)log|
+4996
+|(|F/a|)^2*(ZM)^2|
+5491
+|(|D/a|)^2*(AM)^I|
+5741
+|(|D/a|)^2*(|AM/ID|)^I|
+5762
+|(|D/a|)^2*(|IM/ID|)log|
+5836
+|(MD)^I*|AD/n||
+17535
+|(MD)^I*|ID/n||
+17536
+|(MD)^I*(|AD/n|)^2|
+17640
+|(|MM/rM|)^I*(n)log|
+18336
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(|MD/GD|)^I*(|ZM/n|)^2|
+20391
+|(|MD/n|)^I*(|ZM/n|)^2|
+20818
+|(n)^2*(|EM/n|)log|
+22677
+|(|MM/n|)^2*(|AM/n|)^2|
+23655
+|(|MD/n|)^2*(|AM/n|)^2|
+25013
+|(n)log*(AM)^2|
+26710
+|(|GD/rD|)log*(|ZM/ED|)log|
+29133
+|AD*(|ZM/ED|)log|
+30442
+|(|EM/ED|)log*(|AD/ID|)log|
+44051
+|(|IM/ID|)log*(|AD/ID|)log|
+44183
+Iteration: 71, Lambda: 0.028872
+D
+2
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^I*(|IM/n|)log|
+3837
+|(D)^2*(|MM/GD|)^I|
+4764
+|(a)^2*(F)log|
+4996
+|(|F/a|)^2*(ZM)^2|
+5491
+|(|D/a|)^2*(|MM/GD|)^I|
+5614
+|(|D/a|)^2*(AM)^I|
+5741
+|(|D/a|)^2*(|AM/ID|)^I|
+5762
+|(|D/a|)^2*(|IM/ID|)log|
+5836
+|(F)log*(IM)^I|
+6024
+|(MD)^I*|ID/n||
+17536
+|(MD)^I*(|ZM/n|)^2|
+17620
+|(MD)^I*(|AD/n|)^2|
+17640
+|(|MM/rM|)^I*(n)log|
+18336
+|(|MD/GD|)^I*|ZM/n||
+20286
+|(|MD/GD|)^I*(|ZM/n|)^2|
+20391
+|(|MD/n|)^I*(|ZM/n|)^2|
+20818
+|(n)^2*(|EM/n|)log|
+22677
+|(|MM/n|)^2*(|AM/n|)^2|
+23655
+|(|MD/n|)^2*(|AM/n|)^2|
+25013
+|(n)log*(AM)^2|
+26710
+|(n)log*(|AM/n|)^2|
+26732
+|(|GD/rD|)log*(|ZM/ED|)log|
+29133
+|AD*(|ZM/ED|)log|
+30442
+|(IM)^I*(|IM/n|)^I|
+39211
+|(|EM/ED|)log*(|AD/ID|)log|
+44051
+|(|IM/ID|)log*(|AD/ID|)log|
+44183
+Iteration: 70, Lambda: 0.026926
+D
+2
+|(F)^I*(|EM/n|)^r|
+3435
+|(a)^2*(F)log|
+4996
+|(|F/a|)^2*(ZM)^2|
+5491
+|(|D/a|)^2*(|MM/GD|)^I|
+5614
+|(|D/a|)^2*(AM)^I|
+5741
+|(|D/a|)^2*(|AM/ID|)^I|
+5762
+|(|D/a|)^2*(|IM/ID|)log|
+5836
+|(F)log*(IM)^I|
+6024
+||MM/rM|*(ZM)^2|
+8431
+||MM/rD|*(ZM)^2|
+9198
+||GD/rD|*(|EM/ED|)^2|
+11438
+|(MD)^I*|ID/n||
+17536
+|(MD)^I*(|AD/n|)^2|
+17640
+|(MD)^I*(|ID/n|)^2|
+17641
+|(|MM/rM|)^I*(n)log|
+18336
+|(|MD/GD|)^I*(|ZM/n|)^2|
+20391
+|(n)^2*(|EM/n|)log|
+22677
+|(|MM/GD|)^2*(|EM/n|)log|
+23280
+|(|MM/n|)^2*(|AM/n|)^2|
+23655
+|(|MD/n|)^2*(|AM/n|)^2|
+25013
+|(n)log*(AM)^2|
+26710
+|(n)log*(|AM/n|)^2|
+26732
+|(|GD/rD|)log*(|ZM/ED|)log|
+29133
+|AD*(|ZM/ED|)log|
+30442
+|(IM)^I*(|IM/n|)^I|
+39211
+|(|EM/ED|)log*(|AD/ID|)log|
+44051
+|(|EM/AD|)log*(|AD/ID|)log|
+44068
+|(|IM/ID|)log*(|AD/ID|)log|
+44183
+-------End of Lasso Step------------------
+Total Number of Coeff.: 42
+list of Coeff. 
+index	Coeff. 
+2	D
+517	|F*(|EM/n|)^I|
+3435	|(F)^I*(|EM/n|)^r|
+3837	|(a)^I*(|IM/n|)log|
+4764	|(D)^2*(|MM/GD|)^I|
+4891	|(D)^2*(AM)^I|
+4996	|(a)^2*(F)log|
+5191	|(a)^2*(|EM/n|)^I|
+5491	|(|F/a|)^2*(ZM)^2|
+5614	|(|D/a|)^2*(|MM/GD|)^I|
+5741	|(|D/a|)^2*(AM)^I|
+5762	|(|D/a|)^2*(|AM/ID|)^I|
+5836	|(|D/a|)^2*(|IM/ID|)log|
+6024	|(F)log*(IM)^I|
+8431	||MM/rM|*(ZM)^2|
+9198	||MM/rD|*(ZM)^2|
+11438	||GD/rD|*(|EM/ED|)^2|
+17535	|(MD)^I*|AD/n||
+17536	|(MD)^I*|ID/n||
+17620	|(MD)^I*(|ZM/n|)^2|
+17640	|(MD)^I*(|AD/n|)^2|
+17641	|(MD)^I*(|ID/n|)^2|
+18336	|(|MM/rM|)^I*(n)log|
+20286	|(|MD/GD|)^I*|ZM/n||
+20391	|(|MD/GD|)^I*(|ZM/n|)^2|
+20818	|(|MD/n|)^I*(|ZM/n|)^2|
+22677	|(n)^2*(|EM/n|)log|
+23280	|(|MM/GD|)^2*(|EM/n|)log|
+23655	|(|MM/n|)^2*(|AM/n|)^2|
+25013	|(|MD/n|)^2*(|AM/n|)^2|
+26710	|(n)log*(AM)^2|
+26732	|(n)log*(|AM/n|)^2|
+29133	|(|GD/rD|)log*(|ZM/ED|)log|
+29309	|(|GD/n|)log*(|ZM/ED|)log|
+30442	|AD*(|ZM/ED|)log|
+34439	||AD/ID|*(|ZM/ED|)log|
+35497	|(AD)^r*(|ZM/ED|)log|
+38769	|(|AD/n|)^r*(|ZM/ED|)log|
+39211	|(IM)^I*(|IM/n|)^I|
+44051	|(|EM/ED|)log*(|AD/ID|)log|
+44068	|(|EM/AD|)log*(|AD/ID|)log|
+44183	|(|IM/ID|)log*(|AD/ID|)log|

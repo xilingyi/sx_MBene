@@ -1,0 +1,128 @@
+----------------
+No of descriptors
+----------------
+     1
+
+lowest RMSE Index
+     3
+
+lowest RMSE
+    0.2345
+
+MAE
+    0.1851
+
+MaxAE
+    0.6135
+
+Descriptors
+    '|(F)^I*(|EM/n|)^r|'
+
+Descriptor Index
+        3435
+
+Coefficients
+    5.9604
+
+Intercept
+   -1.5789
+
+----------------
+No of descriptors
+----------------
+     2
+
+lowest RMSE Index
+   105
+
+lowest RMSE
+    0.2153
+
+MAE
+    0.1575
+
+MaxAE
+    0.5864
+
+Descriptors
+    '|(F)^I*(|EM/n|)^r|'
+    '|(n)^2*(|EM/n|)log|'
+
+Descriptor Index
+        3435       22677
+
+Coefficients
+    5.0388
+   -0.2272
+
+Intercept
+   -1.2710
+
+----------------
+No of descriptors
+----------------
+     3
+
+lowest RMSE Index
+        1527
+
+lowest RMSE
+    0.1996
+
+MAE
+    0.1578
+
+MaxAE
+    0.6162
+
+Descriptors
+    '|F*(|EM/n|)^I|'
+    '|(|MD/n|)^2*(|AM/n|)^2|'
+    '|AD*(|ZM/ED|)log|'
+
+Descriptor Index
+         517       25013       30442
+
+Coefficients
+   -0.0882
+   -0.0000
+    0.0034
+
+Intercept
+   -0.1932
+
+----------------
+No of descriptors
+----------------
+     4
+
+lowest RMSE Index
+       12697
+
+lowest RMSE
+    0.1908
+
+MAE
+    0.1507
+
+MaxAE
+    0.5798
+
+Descriptors
+    '|F*(|EM/n|)^I|'
+    '|(D)^2*(|MM/GD|)^I|'
+    '|(|MD/n|)^2*(|AM/n|)^2|'
+    '|AD*(|ZM/ED|)log|'
+
+Descriptor Index
+         517        4764       25013       30442
+
+Coefficients
+   -0.0871
+   -0.0159
+   -0.0000
+    0.0034
+
+Intercept
+   -0.1561
+
