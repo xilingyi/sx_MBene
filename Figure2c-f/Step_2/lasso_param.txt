@@ -1,0 +1,357 @@
+Iteration: 100, Lambda: 0.231613
+||M_M/r_M|*(|q_M-q_H|)log|
+11089
+Iteration: 99, Lambda: 0.216003
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/r_M|*(|q_M-q_H|)log|
+11089
+||M_M/Z_X|*(|q_M*q_HX|)^2|
+15895
+||M_M/Z_X|*(|F/L|)^2|
+15978
+Iteration: 98, Lambda: 0.201445
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/r_M|*(|q_M-q_H|)log|
+11089
+||M_M/Z_X|*(|F/L|)^2|
+15978
+Iteration: 97, Lambda: 0.187869
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/r_M|*(|q_M-q_H|)log|
+11089
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(|M_M/r_M|)^r*(|q_M-q_H|)log|
+53833
+Iteration: 96, Lambda: 0.175207
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(|M_M/r_M|)^r*(|q_M-q_H|)log|
+53833
+Iteration: 95, Lambda: 0.163399
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(|M_M/r_M|)^r*(|q_M-q_H|)log|
+53833
+Iteration: 94, Lambda: 0.152386
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(|M_M/r_M|)^r*(|q_M-q_H|)log|
+53833
+Iteration: 93, Lambda: 0.142116
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(|M_M/r_M|)^r*(|q_M-q_H|)log|
+53833
+|(|q_M/q_HX|)^I*(|q_HM/q_HX|)log|
+293082
+Iteration: 92, Lambda: 0.132538
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(|M_M/r_M|)^r*(|q_M-q_H|)log|
+53833
+|(|q_M/q_HX|)^I*(|q_HM/q_HX|)log|
+293082
+Iteration: 91, Lambda: 0.123605
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(|M_M/r_M|)^r*(|q_M-q_H|)log|
+53833
+|(|q_M/q_HX|)^I*(|q_HM/q_HX|)log|
+293082
+Iteration: 90, Lambda: 0.115274
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(|M_M/r_M|)^r*(|q_M-q_H|)log|
+53833
+|(|E_M/I_X|)log*(|q_HM-q_HX|)log|
+248394
+|(|q_M/q_HX|)^I*(|q_HM/q_HX|)log|
+293082
+Iteration: 89, Lambda: 0.107505
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(|G_M/Z_X|)^I*(|q_M+q_HM|)^I|
+108045
+|(|G_M/Z_X|)log*|F/L||
+176622
+|(|E_M/I_X|)log*(|q_HM-q_HX|)log|
+248394
+|(|q_M/q_HX|)^I*(|q_HM/q_HX|)log|
+293082
+Iteration: 88, Lambda: 0.100260
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(|G_M/Z_X|)^I*(|q_M+q_HM|)^I|
+108045
+|(|G_M/Z_X|)log*|F/L||
+176622
+|(|G_M/Z_X|)log*(|F/L|)^r|
+176631
+|(|E_M/I_X|)log*(|q_HM-q_HX|)log|
+248394
+|(|q_M/q_HX|)^I*(|q_HM/q_HX|)log|
+293082
+Iteration: 87, Lambda: 0.093503
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(|G_M/Z_X|)^I*(|q_M+q_HM|)^I|
+108045
+|(M_M)^2*(|F/L|)^2|
+122822
+|(|G_M/Z_X|)log*|F/L||
+176622
+|(|G_M/Z_X|)log*(|F/L|)^r|
+176631
+|(|E_M/I_X|)log*(|q_HM-q_HX|)log|
+248394
+||q_M+q_HM|*(|q_M+q_HX|)^I|
+265527
+|(|q_M/q_HX|)^I*(|q_HM/q_HX|)log|
+293082
+Iteration: 86, Lambda: 0.087201
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(M_M)^2*(|F/L|)^2|
+122822
+|(|M_M/r_X|)^2*(|A_M/A_X|)log|
+133534
+|(|G_M/Z_X|)log*|F/L||
+176622
+|(|G_M/Z_X|)log*(|F/L|)^r|
+176631
+|(A_M)^2*(|A_M/A_X|)log|
+231381
+|(|E_M/I_X|)log*(|q_HM-q_HX|)log|
+248394
+||q_M+q_HM|*(|q_M+q_HX|)^I|
+265527
+|(|q_M/q_HX|)^I*(|q_HM/q_HX|)log|
+293082
+Iteration: 85, Lambda: 0.081324
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(M_M)^2*(|F/L|)^2|
+122822
+|(|M_M/G_X|)^2*(|F/L|)^2|
+133161
+|(|M_M/r_X|)^2*(|A_M/A_X|)log|
+133534
+|(|G_M/Z_X|)log*|F/L||
+176622
+|(|E_M/I_M|)^r*(|q_X+q_HM|)^r|
+207692
+|(A_M)^2*(|A_M/A_X|)log|
+231381
+|(|E_M/I_X|)log*(|q_HM-q_HX|)log|
+248394
+||q_M+q_HM|*(|q_M+q_HX|)^I|
+265527
+|(|q_M/q_HX|)^I*(|q_HM/q_HX|)log|
+293082
+Iteration: 84, Lambda: 0.075843
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(M_M)^2*(|F/L|)^2|
+122822
+|(|M_M/G_X|)^2*(|F/L|)^2|
+133161
+|(|M_M/r_X|)^2*(|A_M/A_X|)log|
+133534
+|(|r_M/Z_M|)^2*(|a*L|)^2|
+144512
+|(|G_M/Z_X|)log*|F/L||
+176622
+|(|E_M/I_M|)^r*(|q_X+q_HM|)^r|
+207692
+|(A_M)^2*(|A_M/A_X|)log|
+231381
+|(|E_M/I_X|)log*(|q_HM-q_HX|)log|
+248394
+||q_M+q_HM|*(|q_M+q_HX|)^I|
+265527
+|(|q_M/q_HX|)^I*(|q_HM/q_HX|)log|
+293082
+Iteration: 83, Lambda: 0.070731
+||M_M/r_M|*(|q_HM-q_HX|)^r|
+10959
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(|P_M/Z_X|)^I*(|q_HM-q_HX|)log|
+103370
+|(M_M)^2*(|F/L|)^2|
+122822
+|(|M_M/r_M|)^2*(|q_M*q_HM|)log|
+130551
+|(|M_M/r_X|)^2*(|A_M/A_X|)log|
+133534
+|(|r_M/Z_M|)^2*(|a*L|)^2|
+144512
+|(|G_M/Z_X|)log*|F/L||
+176622
+|(|E_M/I_M|)^r*(|q_X+q_HM|)^r|
+207692
+|(A_M)^2*(|A_M/A_X|)log|
+231381
+|(|E_M/I_X|)log*(|q_HM-q_HX|)log|
+248394
+||q_M+q_HM|*(|q_M+q_HX|)^I|
+265527
+|(|q_M/q_HX|)^I*(|q_HM/q_HX|)log|
+293082
+Iteration: 82, Lambda: 0.065964
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(|P_M/Z_X|)^I*(|q_HM-q_HX|)log|
+103370
+|(M_M)^2*(|F/L|)^2|
+122822
+|(|M_M/r_M|)^2*(|q_M*q_HM|)log|
+130551
+|(|M_M/r_X|)^2*(|A_M/A_X|)log|
+133534
+|(|r_M/Z_M|)^2*(|a*L|)^2|
+144512
+|(|G_M/Z_X|)log*|F/L||
+176622
+|(|E_M/I_M|)^r*(|q_X+q_HM|)^r|
+207692
+|(A_M)^2*(|A_M/A_X|)log|
+231381
+|(|E_M/I_X|)log*(|q_HM-q_HX|)log|
+248394
+||q_M+q_HM|*(|q_M+q_HX|)^I|
+265527
+|(|q_M/q_HX|)^I*(|q_HM/q_HX|)log|
+293082
+|(|q_HM-q_HX|)log*|d_b/d_Hb||
+314772
+|(|q_HM+q_H|)log*(|F/L|)^2|
+318857
+Iteration: 81, Lambda: 0.061519
+||M_M/Z_X|*(|F/L|)^2|
+15978
+|(|P_M/Z_X|)^I*(|q_HM-q_HX|)log|
+103370
+|(M_M)^2*(|F/L|)^2|
+122822
+|(|M_M/r_M|)^2*(|q_M*q_HM|)log|
+130551
+|(|M_M/G_X|)^2*(|F/L|)^2|
+133161
+|(|M_M/r_X|)^2*(|A_M/A_X|)log|
+133534
+|(|r_M/Z_M|)^2*(|a*L|)^2|
+144512
+|(|r_M/P_X|)^2*(q_X)^r|
+145543
+|(|G_M/Z_X|)log*|F/L||
+176622
+|(|E_M/I_M|)^r*(|q_X+q_HM|)^r|
+207692
+|(A_M)^2*(|A_M/A_X|)log|
+231381
+|(|E_M/I_X|)log*(|q_HM-q_HX|)log|
+248394
+||q_M+q_HM|*(|q_M+q_HX|)^I|
+265527
+|(|q_HM-q_HX|)log*|d_b/d_Hb||
+314772
+|(|q_HM+q_H|)log*(|F/L|)^2|
+318857
+Iteration: 80, Lambda: 0.057372
+|(|P_M/Z_X|)^I*(|q_HM-q_HX|)log|
+103370
+|(M_M)^2*(|F/L|)^2|
+122822
+|(|M_M/r_M|)^2*(|q_M*q_HM|)log|
+130551
+|(|M_M/r_X|)^2*(|A_M/A_X|)log|
+133534
+|(|r_M/Z_M|)^2*(|a*L|)^2|
+144512
+|(|r_M/P_X|)^2*(q_X)^r|
+145543
+|(|Z_M/Z_X|)^2*(|E_M/I_M|)^r|
+150310
+|(|Z_M/Z_X|)^2*(|A_M/I_M|)^r|
+150315
+|(|G_M/Z_X|)log*|F/L||
+176622
+|(|G_M/Z_X|)log*(|F/L|)^r|
+176631
+|(|E_M/I_M|)^r*(|q_X+q_HM|)^r|
+207692
+|(A_M)^2*(|A_M/A_X|)log|
+231381
+|(|E_M/I_X|)log*(|q_HM-q_HX|)log|
+248394
+||q_M+q_HM|*(|q_M+q_HX|)^I|
+265527
+|(|q_HM-q_HX|)log*|d_b/d_Hb||
+314772
+|(|q_HM+q_H|)log*(|F/L|)^2|
+318857
+|(|F/L|)^2*(d_Hb)^r|
+326371
+|(|d_b-d_Hb|)^r*(|d_b-d_Hb|)log|
+332487
+-------End of Lasso Step------------------
+Total Number of Coeff.: 26
+list of Coeff. 
+index	Coeff. 
+10959	||M_M/r_M|*(|q_HM-q_HX|)^r|
+11089	||M_M/r_M|*(|q_M-q_H|)log|
+15895	||M_M/Z_X|*(|q_M*q_HX|)^2|
+15978	||M_M/Z_X|*(|F/L|)^2|
+53833	|(|M_M/r_M|)^r*(|q_M-q_H|)log|
+103370	|(|P_M/Z_X|)^I*(|q_HM-q_HX|)log|
+108045	|(|G_M/Z_X|)^I*(|q_M+q_HM|)^I|
+122822	|(M_M)^2*(|F/L|)^2|
+130551	|(|M_M/r_M|)^2*(|q_M*q_HM|)log|
+133161	|(|M_M/G_X|)^2*(|F/L|)^2|
+133534	|(|M_M/r_X|)^2*(|A_M/A_X|)log|
+144512	|(|r_M/Z_M|)^2*(|a*L|)^2|
+145543	|(|r_M/P_X|)^2*(q_X)^r|
+150310	|(|Z_M/Z_X|)^2*(|E_M/I_M|)^r|
+150315	|(|Z_M/Z_X|)^2*(|A_M/I_M|)^r|
+176622	|(|G_M/Z_X|)log*|F/L||
+176631	|(|G_M/Z_X|)log*(|F/L|)^r|
+207692	|(|E_M/I_M|)^r*(|q_X+q_HM|)^r|
+231381	|(A_M)^2*(|A_M/A_X|)log|
+248394	|(|E_M/I_X|)log*(|q_HM-q_HX|)log|
+265527	||q_M+q_HM|*(|q_M+q_HX|)^I|
+293082	|(|q_M/q_HX|)^I*(|q_HM/q_HX|)log|
+314772	|(|q_HM-q_HX|)log*|d_b/d_Hb||
+318857	|(|q_HM+q_H|)log*(|F/L|)^2|
+326371	|(|F/L|)^2*(d_Hb)^r|
+332487	|(|d_b-d_Hb|)^r*(|d_b-d_Hb|)log|

@@ -1,0 +1,256 @@
+----------------
+No of descriptors
+----------------
+     1
+
+lowest RMSE Index
+     2
+
+lowest RMSE
+    0.1949
+
+MAE
+    0.1483
+
+MaxAE
+    0.6432
+
+Descriptors
+    '||M_M/r_M|*(|q_M-q_H|)log|'
+
+Descriptor Index
+       11089
+
+Coefficients
+   -0.2855
+
+Intercept
+   -0.2633
+
+----------------
+No of descriptors
+----------------
+     2
+
+lowest RMSE Index
+   308
+
+lowest RMSE
+    0.1732
+
+MAE
+    0.1306
+
+MaxAE
+    0.5321
+
+Descriptors
+    '|(|E_M/I_X|)log*(|q_HM-q_HX|)log|'
+    '|(|q_HM+q_H|)log*(|F/L|)^2|'
+
+Descriptor Index
+      248394      318857
+
+Coefficients
+    0.0579
+   -0.7354
+
+Intercept
+   -0.6091
+
+----------------
+No of descriptors
+----------------
+     3
+
+lowest RMSE Index
+        1050
+
+lowest RMSE
+    0.1614
+
+MAE
+    0.1243
+
+MaxAE
+    0.5615
+
+Descriptors
+    '||M_M/Z_X|*(|F/L|)^2|'
+    '||q_M+q_HM|*(|q_M+q_HX|)^I|'
+    '|(|d_b-d_Hb|)^r*(|d_b-d_Hb|)log|'
+
+Descriptor Index
+       15978      265527      332487
+
+Coefficients
+   -0.3803
+   -0.6443
+   -0.4897
+
+Intercept
+    0.6216
+
+----------------
+No of descriptors
+----------------
+     4
+
+lowest RMSE Index
+        6485
+
+lowest RMSE
+    0.1515
+
+MAE
+    0.1203
+
+MaxAE
+    0.5320
+
+Descriptors
+    '||M_M/Z_X|*(|F/L|)^2|'
+    '|(|P_M/Z_X|)^I*(|q_HM-q_HX|)log|'
+    '||q_M+q_HM|*(|q_M+q_HX|)^I|'
+    '|(|d_b-d_Hb|)^r*(|d_b-d_Hb|)log|'
+
+Descriptor Index
+       15978      103370      265527      332487
+
+Coefficients
+   -0.3366
+    3.3450
+   -0.4960
+   -0.4461
+
+Intercept
+    0.3408
+
+----------------
+No of descriptors
+----------------
+     1
+
+lowest RMSE Index
+     2
+
+lowest RMSE
+    0.1949
+
+MAE
+    0.1483
+
+MaxAE
+    0.6432
+
+Descriptors
+    '||M_M/r_M|*(|q_M-q_H|)log|'
+
+Descriptor Index
+       11089
+
+Coefficients
+   -0.2855
+
+Intercept
+   -0.2633
+
+----------------
+No of descriptors
+----------------
+     2
+
+lowest RMSE Index
+   308
+
+lowest RMSE
+    0.1732
+
+MAE
+    0.1306
+
+MaxAE
+    0.5321
+
+Descriptors
+    '|(|E_M/I_X|)log*(|q_HM-q_HX|)log|'
+    '|(|q_HM+q_H|)log*(|F/L|)^2|'
+
+Descriptor Index
+      248394      318857
+
+Coefficients
+    0.0579
+   -0.7354
+
+Intercept
+   -0.6091
+
+----------------
+No of descriptors
+----------------
+     3
+
+lowest RMSE Index
+        1050
+
+lowest RMSE
+    0.1614
+
+MAE
+    0.1243
+
+MaxAE
+    0.5615
+
+Descriptors
+    '||M_M/Z_X|*(|F/L|)^2|'
+    '||q_M+q_HM|*(|q_M+q_HX|)^I|'
+    '|(|d_b-d_Hb|)^r*(|d_b-d_Hb|)log|'
+
+Descriptor Index
+       15978      265527      332487
+
+Coefficients
+   -0.3803
+   -0.6443
+   -0.4897
+
+Intercept
+    0.6216
+
+----------------
+No of descriptors
+----------------
+     4
+
+lowest RMSE Index
+        6485
+
+lowest RMSE
+    0.1515
+
+MAE
+    0.1203
+
+MaxAE
+    0.5320
+
+Descriptors
+    '||M_M/Z_X|*(|F/L|)^2|'
+    '|(|P_M/Z_X|)^I*(|q_HM-q_HX|)log|'
+    '||q_M+q_HM|*(|q_M+q_HX|)^I|'
+    '|(|d_b-d_Hb|)^r*(|d_b-d_Hb|)log|'
+
+Descriptor Index
+       15978      103370      265527      332487
+
+Coefficients
+   -0.3366
+    3.3450
+   -0.4960
+   -0.4461
+
+Intercept
+    0.3408
+

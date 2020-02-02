@@ -1,0 +1,161 @@
+Importing Data
+Generating Feature Set
+Adding Up matrix
+Running BIG DATA generation step!!
+Saving Data
+Importing Data
+if system_dependent('IsDebugMode')==1, dbquit; end
+%% 
+% Code written by 
+% A S M Jonayat
+% Ph.D. Candidate
+% Dept. of Mechanical and Nuclear Engineering
+% The Pennsylvania State University, University Park - 16802
+% 
+% Distributed as part of the publication - 
+% Interaction trends between single metal atoms and oxide supports identified with density functional theory and statistical learning
+% Nolan J. O’Connor, A S M Jonayat, Michael J. Janik*, Thomas P. Senftle*
+
+% Department of Chemical Engineering, bDepartment of Mechanical and Nuclear Engineering, The Pennsylvania State University, University Park, PA 16802 (USA)
+% Department of Chemical and Biomolecular Engineering, Rice University, Houston, TX 77005 (USA)
+% *mjanik@engr.psu.edu
+% *tsenftle@rice.edu
+
+%%
+clear all;
+clc
+diary 'log.txt'
+disp('Importing Data');
+Importing Data
+
+%% Import the data: Binding Energy Data
+[~, ~, raw] = xlsread('Binding_energyV4.xlsx','binding_energy');
+raw = raw(2:end,:);
+%raw = raw(2:92,:);
+raw(cellfun(@(x) ~isempty(x) && isnumeric(x) && isnan(x),raw)) = {''};
+cellVectors = raw(:,[1,2]);
+raw = raw(:,3);
+
+%% Create output variable
+data = reshape([raw{:}],size(raw));
+
+%% Allocate imported array to column variable names
+B = cellVectors(:,1);       % Support oxide metal name
+A = cellVectors(:,2);       % Adamtom metal name
+BE_eV = data(:,1);          % Binding energy (eV)
+
+%% Clear temporary variables
+clearvars data raw cellVectors;
+
+
+%% Import the Oxide formation and head of sub. data
+[~, ~, raw] = xlsread('Binding_energyV4.xlsx','oxide_properties');
+raw = raw(2:14,[1,6:7]);
+raw(cellfun(@(x) ~isempty(x) && isnumeric(x) && isnan(x),raw)) = {''};
+cellVectors = raw(:,1);
+raw = raw(:,[2,3]);
+
+%% Create output variable
+data = reshape([raw{:}],size(raw));
+
+%% Allocate imported array to column variable names
+metal = cellVectors(:,1);       % Adatom metal name
+Hs_eV = data(:,1);              % Heat of oxide formation of adatom metal oxide
+Hf_eV = data(:,2);              % Heat of subblimination of adatom metal oxide
+
+%% Clear temporary variables
+clearvars data raw cellVectors;
+
+
+%% Import the data: Surface Properties
+[~, ~, raw] = xlsread('Binding_energyV4.xlsx','surface_properties');
+raw = raw(2:end,:);
+raw(cellfun(@(x) ~isempty(x) && isnumeric(x) && isnan(x),raw)) = {''};
+cellVectors = raw(:,1);
+raw = raw(:,[2,3,4,5,6,7,8,9,10,11,12]);
+
+%% Create output variable
+data = reshape([raw{:}],size(raw));
+
+%% Allocate imported array to column variable names
+surface = cellVectors(:,1);     % surface oxide metal atom name
+Ox_vac_eV = data(:,1);          % oxygen vacancy energy (eV) 
+wf_eV = data(:,2);              % work function of the surface (eV)
+surface_energy = data(:,3);     % surface energy  (mev/A^2)
+cn_m_b = data(:,4);             % coordination number of Metal (of metal oxide) in bulk
+cn_m_s = data(:,5);             % coordination number of Metal (of metal oxide) in surface    
+cn_o_b = data(:,6);             % coordination number of Oxygen (of metal oxide) in bulk
+cn_o_s = data(:,7);            % coordination number of Oxygen (of metal oxide) in surface
+bv_b = data(:,8);               % Bond valence of metal (of metal oxide) in bulk
+bv_s = data(:,9);               % Bond valence of metal (of metal oxide) in surface
+s_ion_3 = data(:,10);
+s_ion_4 = data(:,11);
+%% Clear temporary variables
+clearvars data raw cellVectors;
+
+%% Import the data : atom properties
+[~, ~, raw] = xlsread('Binding_energyV4.xlsx','atomic_properties');
+raw = raw(3:22,[1:12,14:15,17:20]);
+raw(cellfun(@(x) ~isempty(x) && isnumeric(x) && isnan(x),raw)) = {''};
+cellVectors = raw(:,1);
+raw = raw(:,[2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]);
+
+%% Create output variable
+data = reshape([raw{:}],size(raw));
+
+%% Allocate imported array to column variable names
+atom_name = cellVectors(:,1);   % atom name
+Z = data(:,1);                  % Atomic Number
+Chi_P = data(:,2);              % Electronegativity - Pauling Scale
+Chi_MB = data(:,3);             % Electronegativity - Martynov-Batsanov (scaled to Pauling)
+ionization_1_eV = data(:,4);    % 1st ionization energy (NIST) eV
+ionization_2_eV = data(:,5);   % 2nd ionization energy (NIST) eV
+EA_eV = data(:,6);              % Electron Affinity (eV)
+HOMO_eV = data(:,7);            % HOMO from VASP PW91 calculations
+LUMO_eV = data(:,8);            % LUMO from VASP PW91 calculations
+Zunger_rs = data(:,9);          % Zunger orbital radii, rs
+Zunger_rp = data(:,10);         % Zunger orbital radii, rp
+Zunger_rd = data(:,11);         % Zunger orbital radii, rd
+WC_rs = data(:,12);             % Waber and Cromer radii, rs
+WC_rp = data(:,13);             % Waber and Cromer radii, rp
+Val_elec = data(:,14);          % Number of valence electrons
+nws13 = data(:,15);             % Miedema - 1st parameter
+phi = data(:,16);               % Miedema - 2nd parameter
+Chi_MB_un = data(:,17);         % Electronegativity - Martynov-Batsanov (unscaled - recalculated using NIST ionization values)
+
+%% Clear temporary variables
+clearvars data raw cellVectors;
+%% Create D matrix
+% Hs, Hf, Oxv [Units eV]
+% Atomic Properties
+n_s=size(BE_eV,1);
+head_1={'m_Z', 's_Z', 'o_Z', 'm_Chi_P', 's_Chi_P', 'o_Chi_P', 'm_Chi_MB', 's_Chi_MB', 'o_Chi_MB', 'm_ion_1', 'm_ion_2', 's_ion_1', 's_ion_2', 'o_ion_1', 'o_ion_2', 'm_EA', 's_EA', 'o_EA', ...
+    'm_HOMO', 'm_LUMO', 's_HOMO', 's_LUMO', 'o_HOMO', 'o_LUMO', 'm_rs_Z', 'm_rp_Z',  's_rs_Z', 's_rp_Z', 'o_rs_Z', 'o_rp_Z', 'm_rs_WC', 'm_rp_WC', 's_rs_WC', 's_rp_WC', 'o_rs_WC', 'o_rp_WC', 'm_N_val', 's_N_val', 'o_N_val', ...
+    'm_n13', 's_n13', 'm_phi', 's_phi', 'm_Chi_MB_un', 's_Chi_MB_un', 'o_Chi_MB_un', 'Hs', 'Hf'};
+n_ap=size(head_1);
+D_p1=zeros(n_s(1),n_ap(2));
+% Surface Properties
+head_2={'Oxv', 'W', 'gamma', 'CMB', 'CMS', 'COB', 'COS', 'BVB', 'BVS', 's_ion_3', 's_ion_4'};
+n_sp=size(head_2);
+D_p2=zeros(n_s(1),n_sp(2));
+
+
+for i=1:n_s(1)
+    idm=find(strcmp(atom_name,A(i)));
+    ids=find(strncmp(atom_name,B(i),2));
+    ido=find(strcmp(atom_name,'O'));
+    idsp=find(strcmp(surface,B(i)));
+    idms=find(strcmp(metal,A(i)));
+    %X = sprintf('Row %d matA %d matB %d', i, id1, id2);
+    %disp(X)
+    D_p1(i,:)=[Z(idm) Z(ids) Z(ido) Chi_P(idm) Chi_P(ids) Chi_P(ido) Chi_MB(idm) Chi_MB(ids) Chi_MB(ido) ionization_1_eV(idm) ionization_2_eV(idm) ionization_1_eV(ids) ionization_2_eV(ids) ionization_1_eV(ido) ionization_2_eV(ido) EA_eV(idm) EA_eV(ids) EA_eV(ido)  ...
+        HOMO_eV(idm) LUMO_eV(idm) HOMO_eV(ids) LUMO_eV(ids) HOMO_eV(ido) LUMO_eV(ido) Zunger_rs(idm) Zunger_rp(idm) Zunger_rs(ids) Zunger_rp(ids) Zunger_rs(ido) Zunger_rp(ido) WC_rs(idm) WC_rp(idm) WC_rs(ids) WC_rp(ids) WC_rs(ido) WC_rp(ido) Val_elec(idm) Val_elec(ids) Val_elec(ido) ...
+        nws13(idm) nws13(ids) phi(idm) phi(ids) Chi_MB_un(idm) Chi_MB_un(ids) Chi_MB_un(ido) Hs_eV(idms) Hf_eV(idms)];
+    D_p2(i,:)=[Ox_vac_eV(idsp) wf_eV(idsp) surface_energy(idsp) cn_m_b(idsp) cn_m_s(idsp) cn_o_b(idsp) cn_o_s(idsp) bv_b(idsp) bv_s(idsp) s_ion_3(idsp) s_ion_4(idsp)];
+    
+end
+% End of data import
+
+
+disp('Generating Feature Set');
+Generating Feature Set
